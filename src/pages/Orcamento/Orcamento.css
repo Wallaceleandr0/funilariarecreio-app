@@ -1,0 +1,114 @@
+.Orcamento {
+
+}
+
+.Orcamento .container-orcamento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.Orcamento .container-orcamento .box-1 {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-height: 400px;
+}
+
+.Orcamento .container-orcamento .box-1 ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Orcamento .container-orcamento .box-1 ul li {
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.Orcamento .container-orcamento .box-1 h2 {
+    margin: 0;
+    text-align: start;
+    margin: 20px 0;
+}
+
+.Orcamento .container-orcamento .box-1 h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Orcamento .container-orcamento .box-1 p {
+    margin: 25px 0;
+    width: 100%;
+    text-align: start;
+}
+
+.Orcamento .container-orcamento .box-1 h4 {
+    margin-top: 10px;
+    font-size: 37px;
+}
+
+.Orcamento .container-orcamento .box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    min-height: 400px;
+}
+
+.Orcamento .container-orcamento .box-2 h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Orcamento .container-orcamento .box-2 h2 {
+    margin: 0;
+    text-align: start;
+    margin: 20px 0;
+}
+
+.Orcamento .container-orcamento .box-2 form {
+    padding: 10px 5px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 320px;
+    width: 100%;
+}
+
+.Orcamento .container-orcamento .box-2 form input {
+    height: 40px;
+    outline: none;
+    padding: 5px;
+}
+
+.Orcamento .container-orcamento .box-2 form button {
+    outline: none;
+    border: none;
+    width: 150px;
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.Orcamento .container-orcamento .box-2 form button:hover {
+    transform: scale(1.02);
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 930px) {
+    .Orcamento .container-orcamento {
+        justify-content: left;
+    }
+}

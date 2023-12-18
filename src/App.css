@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+body {
+    color: #000000bb;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#button-black {
+    background-color: black;
+    display: flex;
+    max-width: 240px;
+    padding: 12px;
+    justify-content: center;
+    color: #fff;
+    transition: .3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#button-black:hover {
+    transform: scale(1.03);
 }
 
-.App-link {
-  color: #61dafb;
+img {
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 230px;
+}
+
+@media(max-width: 785px) {
+    
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 85px;
+}
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+p {
+    text-align: center;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+.line {
+    width: 65px;
+    height: 3px;
+    background-color: black;
+    margin: 15px auto;
+    display: block;
+}
+
+.Empresa, .Servicos, .Orcamento {
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #DAC92E;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    /* position: fixed; */
+    bottom: 0;
 }

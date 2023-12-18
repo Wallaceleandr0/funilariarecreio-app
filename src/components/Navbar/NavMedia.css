@@ -1,0 +1,44 @@
+.NavMedia {
+    background-color: #DAC92E;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.NavMedia ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.NavMedia ul li {
+    list-style: none;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.NavMedia ul li:hover {
+    transform: scale(1.1);
+}
+
+.NavMedia ul li a {
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: black;
+}
+
+.NavMedia ul li a svg {
+    width: 20px;
+    height: 20px;
+}
+
+@media(max-width: 785px) {
+    .NavMedia {
+        display: none;
+    }
+
+}

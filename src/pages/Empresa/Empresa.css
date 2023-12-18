@@ -1,0 +1,41 @@
+.Empresa {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.Empresa h2 {
+    margin: 30px 0;
+}
+
+.Empresa h3 {
+    font-size: 1.3em;
+}
+
+.Empresa .container-servicos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Empresa .container-servicos img {
+    max-width: 450px;
+    height: 400px;
+}
+
+.Empresa .container-servicos .box-servicos {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Empresa .container-servicos .box-servicos #p-box-servicos {
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.Empresa .container-servicos .box-servicos a {
+    margin-top: 20px;
+}
