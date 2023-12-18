@@ -19,10 +19,14 @@
     gap: 20px;
 }
 
-.Empresa .container-servicos img {
-    max-width: 450px;
+.Empresa .container-servicos .funilaria-bg {
+    min-width: 450px;
     height: 400px;
+    background-image: url('/public/img/img-funilaria.jpg');
+    background-size: cover;
+    background-position: top;
 }
+
 
 .Empresa .container-servicos .box-servicos {
     max-width: 500px;

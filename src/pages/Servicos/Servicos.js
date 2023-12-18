@@ -20,7 +20,7 @@ function Servicos() {
       <div className='container-servicos'>
         <div className='box-servicos'>
           <img src='/img/logo.jpg'/>
-          <h3>Funilaria e Pintua</h3>
+          <h3>Funilaria e Pintura</h3>
           <p>Realizamos serviços de funilaria e pintura aqui na mooca com produtos de alta qualidade e mão de obra especializada com cabine própria para pinturas.
           </p>
         </div>

@@ -15,10 +15,11 @@ function Empresa() {
           <span className='line'></span>
         </>
       )}
-      <h2>FUNILARIA E PINTURA AUTO SERVICE</h2>
+      <h2>FUNILARIA E PINTURA RECREIO AUTO SERVICE</h2>
       <p>Desde 2015, a oficina Recreio Auto Service tem se destacado no ramo de serviços automotivos de mecânica e manutenção, localizada no bairro do Recreio dos Bandeirantes. Atendemos com primazia clientes não apenas do Recreio, mas também de bairros vizinhos como Barra da Tijuca, Guaratiba, Jacarepaguá, entre outras regiões. Especializados em veículos nacionais e importados, oferecemos serviços que vão desde reparos mecânicos até soluções avançadas em tecnologia automotiva.</p>
       <div className='container-servicos'>
-        <img src='/img/logo.jpg' />
+        {/* <img src='/img/img-funilaria.jpg' /> */}
+        <div className='funilaria-bg'/>
         <div className='box-servicos'>
           <h3>O melhor orçamento em serviços de funilaria e pintura</h3>
           <p id='p-box-servicos'>Nos serviços realizados para solução de sinistros, são removidas todas as partes e peças danificadas e substituídas por produtos novos originais de fábrica:</p>
