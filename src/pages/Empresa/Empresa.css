@@ -20,7 +20,7 @@
 }
 
 .Empresa .container-servicos .funilaria-bg {
-    min-width: 450px;
+    width: 450px;
     height: 400px;
     background-image: url('/public/img/img-funilaria.jpg');
     background-size: cover;
