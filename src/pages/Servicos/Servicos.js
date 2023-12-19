@@ -16,28 +16,28 @@ function Servicos() {
         </>
       )}
       <h2>Cuidamos de seu veículo como se fosse nosso!</h2>
-      <p>Executamos serviços com processos e equipamentos mais modernos do ramo de serviços automotivos. o AUTO SERVICE trabalha com foco em 3 pilares: Cliente, Técnica em Reparação e Qualidade com resultados originais de fábrica.</p>
+      <p>Realizamos serviços com tecnologia de ponta e equipamentos modernos no segmento automotivo. A RECREIO AUTO SERVICE opera centrada em 3 princípios: Satisfação do Cliente, Excelência Técnica em Reparação e Garantia de Qualidade, obtendo resultados equiparáveis aos originais de fábrica.</p>
       <div className='container-servicos'>
         <div className='box-servicos'>
-          <img src='/img/logo.jpg'/>
-          <h3>Funilaria e Pintura</h3>
-          <p>Realizamos serviços de funilaria e pintura aqui na mooca com produtos de alta qualidade e mão de obra especializada com cabine própria para pinturas.
+          <img src='/img/car-front-fill.svg'/>
+          <h3>Lanternagem</h3>
+          <p>Restauramos a estrutura do seu veículo com habilidade artesanal, eliminando amassados e imperfeições para uma aparência impecável.
           </p>
         </div>
         <div className='box-servicos'>
-          <img src='/img/logo.jpg'/>
-          <h3>Funilaria e Pintua</h3>
-          <p>Realizamos serviços de funilaria e pintura aqui na mooca com produtos de alta qualidade e mão de obra especializada com cabine própria para pinturas.
+          <img src='/img/car-front.svg'/>
+          <h3>Pintura</h3>
+          <p>Renovamos e protegemos seu veículo com técnicas avançadas de pintura, proporcionando um revestimento refinado e duradouro.
           </p>
         </div>
         <div className='box-servicos'>
-          <img src='/img/logo.jpg'/>
-          <h3>Funilaria e Pintua</h3>
-          <p>Realizamos serviços de funilaria e pintura aqui na mooca com produtos de alta qualidade e mão de obra especializada com cabine própria para pinturas.
+          <img src='/img/ev-front-fill.svg'/>
+          <h3>Polimento</h3>
+          <p>Dê o toque final ao seu carro. Removemos imperfeições, revelando o brilho original e garantindo um acabamento reluzente e protegido.
           </p>
         </div>
       </div>
-      <a href='' id='button-black' style={{marginBottom: '40px'}}>MAIS SOBRE A EMPRESA</a>
+      <a href='https://wa.me/5521964680921?text=Gostaria%20de%20solicitar%20um%20orçamento!' target='_blank' id='button-black' style={{marginBottom: '40px'}}>ENTRAR EM CONTATO</a>
     </div>
   )
 }

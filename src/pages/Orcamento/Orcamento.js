@@ -21,11 +21,11 @@ function Orcamento() {
           <h2>O que podemos oferecer para o seu veículo</h2>
           <p>O melhor preço do Brasil!</p>
           <ul>
-            <li>Serviços de funilaria</li>
-            <li>Serviços de funilaria</li>
-            <li>Serviços de funilaria</li>
+            <li>Restauramos a estrutura do seu veículo</li>
+            <li>Renovamos e protegemos seu veículo</li>
+            <li>Removemos imperfeições</li>
           </ul>
-          <h4 style={{fontSize: '37x'}}>Número de suporte rápido (+99) 68985 8596 95</h4>
+          <h4 style={{fontSize: '37x'}}>Número de suporte rápido (+21) 96468-0921</h4>
         </div>
         <div className='box-2'>
           <h3>Entre em contato conosco</h3>

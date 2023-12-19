@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     max-width: 300px;
-    box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.313);
+    box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.232);
     min-height: 240px;
     gap: 10px;
 }
@@ -30,9 +30,11 @@
 }
 
 .Servicos .container-servicos .box-servicos img {
+    padding: 5px;
     max-width: 60px;
     height: 60px;
     border-radius: 50%;
+    background-color: #DAC92E;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.654);
 }
 
