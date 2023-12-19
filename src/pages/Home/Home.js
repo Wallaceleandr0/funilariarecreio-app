@@ -4,6 +4,8 @@ import Carousel from '../../components/Carousel.js'
 import Orcamento  from '../Orcamento/Orcamento.js'
 
 function Home() {
+
+
   return (
     <div className='Home'>
       <Carousel />

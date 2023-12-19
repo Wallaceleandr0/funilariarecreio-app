@@ -1,7 +1,7 @@
 import './Navbar.css'
 import NavMedia from './NavMedia.js'
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function Navbar() {
 
@@ -48,6 +48,13 @@ function Navbar() {
     }
   }
 
+  const location = useLocation()
+
+  const isHomeActive = location.pathname === '/'
+  const isEmpresaActive = location.pathname === '/empresa'
+  const isServicosActive = location.pathname === '/servicos'
+  const isOrcamentoActive = location.pathname === '/orcamento'
+
   return (
     <>
       <header className="Navbar">
@@ -62,10 +69,10 @@ function Navbar() {
             </div>
             </div>
             <ul className={isListVisible ? 'visible' : ''}>
-              <li><Link to='/' onClick={hiddenUl}>HOME</Link></li>
-              <li><Link to='/empresa' onClick={hiddenUl}>EMPRESA</Link></li>
-              <li><Link to='/servicos' onClick={hiddenUl}>SERVIÇOS</Link></li>
-              <li><Link to='/orcamento' onClick={hiddenUl}>ORÇAMENTO</Link></li>
+              <li><Link to='/' onClick={hiddenUl} style={{backgroundColor: isHomeActive ? '#DAC92E' : ''}}>HOME</Link></li>
+              <li><Link to='/empresa' onClick={hiddenUl} style={{backgroundColor: isEmpresaActive ? '#DAC92E' : ''}}>EMPRESA</Link></li>
+              <li><Link to='/servicos' onClick={hiddenUl} style={{backgroundColor: isServicosActive ? '#DAC92E' : ''}}>SERVIÇOS</Link></li>
+              <li><Link to='/orcamento' onClick={hiddenUl} style={{backgroundColor: isOrcamentoActive ? '#DAC92E' : ''}}>ORÇAMENTO</Link></li>
             </ul>
         </nav>
     </header>
