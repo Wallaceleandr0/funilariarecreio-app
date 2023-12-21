@@ -1,10 +1,14 @@
 import './Orcamento.css';
-import { Link ,useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Orcamento() {
 
   const location = useLocation();
   const isOrcamentoActive = location.pathname === '/orcamento';
+
+  const openYouTube = () => {
+    window.open('https://www.recreioautoservice.com/obrigado');
+  };
 
   return (
     <div className='Orcamento'>
@@ -43,8 +47,7 @@ function Orcamento() {
               <label>Mensagem:</label>
               <textarea placeholder='Preciso fazer uma mudança...' name='message' required />
             </div>
-            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input>
-              <button type="submit" data-button>Enviar</button>
+              <button type="submit" data-button onClick={openYouTube}>Enviar</button>
           </form>
         </div>
       </div>

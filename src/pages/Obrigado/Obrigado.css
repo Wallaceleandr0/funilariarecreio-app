@@ -1,0 +1,50 @@
+.Obrigado {
+    min-height: 650px;
+}
+
+.Obrigado h2 {
+    margin-top: 200px;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.Obrigado p {
+    font-size: 1.2em;
+}
+
+
+.Obrigado p img {
+    width: 40px;
+}
+
+.Obrigado a {
+    margin: 30px auto;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(30, 206, 18);
+    align-items: center;
+    display: flex;
+    max-width: 380px;
+    border-radius: 35px;
+    padding: 8px;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bolder;
+    font-size: 1.4em;
+    transition: .3s ease;
+}
+
+.Obrigado a:hover {
+    transform: scale(1.03);
+}
+
+.Obrigado a svg {
+    width: 50px;
+    height: 50px;
+}
+
+@media(max-width: 650px) {
+    .Obrigado h2 {
+        margin-top: 140px;
+    }
+}
